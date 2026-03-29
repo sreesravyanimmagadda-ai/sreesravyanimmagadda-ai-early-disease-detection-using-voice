@@ -73,7 +73,12 @@ These features capture important vocal characteristics that can support disease 
 - Build an interactive screening interface
 
 ---
+## Sample Output
 
+```text
+Model Accuracy: 0.50
+
+---
 ## Author
 
 Sree Sravya Nimmagadda  
