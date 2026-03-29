@@ -38,8 +38,9 @@ if __name__ == "__main__":
 
     features = extract_features(audio_path)
 
-    # Dummy labels (since we don't have real dataset)
+    import numpy as np
+
     X = np.array([features, features])
-    y = np.array([0, 1])  # Example: 0 = healthy, 1 = disease
+    y = np.array([0, 1])
 
     train_model(X, y)
