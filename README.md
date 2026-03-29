@@ -72,12 +72,26 @@ These features capture important vocal characteristics that can support disease 
 - Evaluate deep learning models for speech classification
 - Build an interactive screening interface
 
----
+## How to Run
+
+1. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+2. Run the model:
+```
+python src/disease_classifier.py
+```
+
+3. The model will extract features from the sample voice file and print accuracy.
+
+
 ## Sample Output
 
-```text
-Model Accuracy: 0.82 (demonstration with synthetic dataset)
-
+```
+Model Accuracy: 0.82 (demonstration with sample data)
+```
 ---
 ## Author
 
