@@ -30,3 +30,16 @@ if __name__ == "__main__":
     labels = np.random.randint(0, 2, 100)
 
     model = train_model(features, labels)
+
+if __name__ == "__main__":
+    from voice_feature_extraction import extract_features
+
+    audio_path = "data/sample_voice.wav"
+
+    features = extract_features(audio_path)
+
+    # Dummy labels (since we don't have real dataset)
+    X = np.array([features, features])
+    y = np.array([0, 1])  # Example: 0 = healthy, 1 = disease
+
+    train_model(X, y)
