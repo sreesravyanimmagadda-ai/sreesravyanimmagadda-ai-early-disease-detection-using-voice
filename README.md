@@ -10,6 +10,15 @@ This project was developed as part of my Master's thesis in Artificial Intellige
 
 ---
 
+## Tech Stack
+
+- Python
+- NumPy
+- Librosa (Audio Signal Processing)
+- Scikit-learn (Machine Learning)
+- Feature Engineering (MFCC, Spectral Features)
+---
+
 ## Motivation
 
 Early disease detection can improve treatment outcomes and support timely medical intervention.
